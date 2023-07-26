@@ -24,14 +24,14 @@ export const ApolloSubscribeToMore = CApolloSubscribeToMore
 export const ApolloMutation = CApolloMutation
 
 // Auto-install
-let GlobalVue = null
-if (typeof window !== 'undefined') {
-  GlobalVue = window.Vue
-} else if (typeof global !== 'undefined') {
-  GlobalVue = global.Vue
-}
-if (GlobalVue) {
-  GlobalVue.use(plugin)
-}
+// let GlobalVue = null
+// if (typeof window !== 'undefined') {
+//   GlobalVue = window.Vue
+// } else if (typeof global !== 'undefined') {
+//   GlobalVue = global.Vue
+// }
+// if (GlobalVue) {
+//   GlobalVue.use(plugin)
+// }
 
 export default plugin
